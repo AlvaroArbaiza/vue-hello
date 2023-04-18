@@ -8,7 +8,10 @@
 </head>
 <body>
 
-    <div id="app">{{ message }}</div>
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <img v-bind:src="image">
+    </div>
     
     <!-- Vue Js -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
